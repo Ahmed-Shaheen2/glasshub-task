@@ -1,0 +1,24 @@
+{
+  "name": "glasshub-task-backend",
+  "version": "1.0.0",
+  "description": "backend for glasshub evaluation task",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha ./src/tests/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed-Shaheen2/glasshub-task.git"
+  },
+  "keywords": [
+    "glasshub",
+    "task",
+    "assesment"
+  ],
+  "author": "Ahmed Shaheen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed-Shaheen2/glasshub-task/issues"
+  },
+  "homepage": "https://github.com/Ahmed-Shaheen2/glasshub-task#readme"
+}
