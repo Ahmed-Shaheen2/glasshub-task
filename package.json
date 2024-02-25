@@ -2,10 +2,11 @@
   "name": "glasshub-task-backend",
   "version": "1.0.0",
   "description": "backend for glasshub evaluation task",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
     "prod": "node server.js",
     "test": "mocha ./src/tests/*.spec.js",
+    "test:watch": "mocha --watch ./src/tests/*.spec.js",
     "dev": "nodemon server.js"
   },
   "repository": {
@@ -27,5 +28,8 @@
     "chai": "^5.1.0",
     "mocha": "^10.3.0",
     "supertest": "^6.3.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
