@@ -4,7 +4,9 @@
   "description": "backend for glasshub evaluation task",
   "main": "app.js",
   "scripts": {
-    "test": "mocha ./src/tests/*.spec.js"
+    "prod": "node server.js",
+    "test": "mocha ./src/tests/*.spec.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/Ahmed-Shaheen2/glasshub-task/issues"
   },
-  "homepage": "https://github.com/Ahmed-Shaheen2/glasshub-task#readme"
+  "homepage": "https://github.com/Ahmed-Shaheen2/glasshub-task#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0",
+    "supertest": "^6.3.4"
+  }
 }
